@@ -4451,10 +4451,10 @@ var Te = class n {
         return this.formGenerator.get("itemType")?.value === "specific"
     }
     getItemImageUrl(t) {
-        return `/LEGO-Dimensions-NFC/Dimensions_Web/LD_Generator/assets/img/${t}.png`
+        return `/ld/assets/img/${t}.png`
     }
     onImageError(t) {
-        t.target.src = "/LEGO-Dimensions-NFC/Dimensions_Web/LD_Generator/assets/img/logo.png"
+        t.target.src = "/ld/assets/img/logo.png"
     }
     onImageContextMenu(t) {
         return t.preventDefault(), !1
